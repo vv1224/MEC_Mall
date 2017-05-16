@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MEC_Mall:war exploded">
+    <output-path>$PROJECT_DIR$/target/MEC_Mall</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MEC_Mall" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/MEC_Mall/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="MEC_Mall/web/Web" />
+    </root>
+  </artifact>
+</component>
